@@ -1,0 +1,19 @@
+.container {
+	width: 30%;
+	margin-top: 10%;
+	box-shadow: 0 3px 20px rgba(0,0,0,0.4);
+	padding: 40px;
+	border-radius: 10px;
+}
+ 
+button {
+	width: 49%;
+}
+
+/* Gaya untuk layar smartphone */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    background-color: rgb(135, 189, 207);
+  }
+}
